@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "PlateReveal",
+    "slug": "plate-revealapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "platerevealapp",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0A111F",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A111F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.platereveal.app",
+      "icon": "./assets/icon.png"
+    },
+    "android": {
+      "package": "com.platereveal.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0A111F"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A111F",
+          "image": "./assets/splash.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "33b2fed4-181a-4b5d-ad3a-7782f02281ab"
+      }
+    },
+    "owner": "plate-reveal"
+  }
+}
